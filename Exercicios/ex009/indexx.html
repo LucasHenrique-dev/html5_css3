@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <hr>
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>Para você que quer escrever um código, mas esta cansad@ da formatação básica e padrão do HTML, tente agora mesmo usar a <strong>tag semântica &lt;code&gt;</strong>. Compare a seguir a diferença:</p>
+    <br>
+    <p>&RightArrow; <ins>Sem</ins> a tag: System.out.print("Hello World");</p>
+    <p>&RightArrow; <ins>Com</ins> a tag: <code>System.out.print("Hello World");</code></p>
+    <br>
+    <p>Unindo-se com a <strong>tag semântica &lt;pre&gt;</strong> você poderá personalizar seu próprio bloco de código, uau!</p>
+    <pre style="background-color: #272727; width: fit-content; padding: 8px; border-radius: 10px; color: rgb(213, 213, 213)">
+        <code>
+    public int factorial(int number){
+        if (number == 1) return 1;
+        return number * factorial(number - 1);
+    }
+        </code>
+    </pre>
+    <h2>Citação simples</h2>
+    <p>Remete a fala de alguém ou uma obra por meio da <strong>tag semântica &lt;q&gt;</strong>.</p>
+    <p>Ex.: Como diria Ben Parker: <q>Com grandes poderes vem grandes responsabilidades</q>.</p>
+    <h2>Citações completas</h2>
+    <p>É uma citação maior, em forma de bloco, que pode conter a referência para a citação em questão. Usa-se a <strong>tag semântica &lt;blockquote&gt;</strong>.</p>
+    <p>Ex.: Trecho adaptado do poema <em>For Katrina's Sun-Dial</em> de Henry Van Dyke:</p>
+    <blockquote cite="https://www.pensador.com/frase/MjAxNjk/">
+        O tempo é muito lento para os que esperam
+        Muito rápido para os que têm medo
+        Muito longo para os que lamentam
+        Muito curto para os que festejam
+        Mas, para os que amam, o tempo é eterno.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Serve para mostrar o significado da abreviação quando o mause pousa sobre a palavra. Para isso, utiliza-se a <strong>tag semântica &lt;abbr&gt;</strong>.</p>
+    <p>Ex.: Passe por cima das siglas <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> e descubra seus significados.</p>
+    <h2>Texto Invertido</h2>
+    <p>Com a <strong>tag semântica &lt;bdo&gt;</strong> é possível determinar a ordem de escita do texto, ou seja, se ele será lido da esquerda para a direita ou da direita para a esquerda.</p>
+    <p>Exs.: <br> <bdo dir="rtl">Esse teste é um exemplo de frase escrita da esquerda para a direita.</bdo></p>
+    <p><bdo dir="ltr">Já esse é do tipo normal/habitual, ou seja, da esquerda para a direita.</bdo></p>
+</body>
+</html>

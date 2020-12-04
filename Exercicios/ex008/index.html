@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark
+        {
+            background-color: rgb(84, 197, 122);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <hr>
+    <h2>Negrito/Destaque</h2>
+    <p>Atualmente no HTML5 você pode usar o negrito através da tag <strong>&lt;b&gt;</strong>, porém esta já é uma <strong>tag obsoleta</strong> (não semântica).</p>
+    <p>Desse modo é preferível usar a tag <strong>&lt;Strong&gt;</strong> que é a <strong>tag semântica</strong> para o negrito/destaque.</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Para o Itálico também ocorre situação parecida, onde a tag <strong>&lt;i&gt;</strong> pode sar usada para proporcionar o tal efeito, mas não é considerado semântico e, portanto, uma <strong><em>tag obsoleta</em></strong>.</p>
+    <p>Com o objetivo de contornar tal problema há <strong>&lt;em&gt;</strong> que é a  <strong><em>tag semântica</em></strong> para o <em>Itálico/Ênfase</em>.</p>
+    <h2>Texto Marcado</h2>
+    <p>Para deixar o <mark style='background-color: rgb(211, 73, 73);'>texto marcado</mark> (usando a propriedade <em>style</em> &DoubleRightArrow; Característica para essa tag em específico), como se estivesse com marca texto é necessário usar a tag <strong>&lt;mark&gt;</strong> <mark>desse jeito</mark> (usando seletor, CSS, no próprio documento &DoubleRightArrow; Característica vai para todos os elementos mark do documento em questão).</p>
+    <h2>Texto pequeno</h2>
+    <p>Para deixar um texto em <small>letras miúdas</small> é necessário usar a <strong>tag semântica &lt;small&gt;</strong>. Já para letras grandes há a <strong>tag obsoleta</strong> <em>&lt;Big&gt;</em> que realiza algo <big>desse tipo</big>.</p>
+    <h2>Texto Deletado</h2>
+    <p>Um texto deletado é um texto <del><em>segredo gamer</em></del> riscado que pode ser visulizado, mas não deve ser considerado.</p>
+    <p>Para criar um é necessário o uso de uma <strong>tag semântica &lt;del&gt;</strong>.</p>
+    <h2>Texto Inserido</h2>
+    <p>Um texto considerado inserido possui um <ins>sublinhado</ins> e para isso usa-se uma <strong>tag semântica &lt;ins&gt;</strong>.</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>É bastante útil usar um texto sobrescrito para descrever fórmulas ou expressões matemáticas. Isso usando a <strong>tag semântica &lt;sup&gt;</strong>.</p>
+    <p>Ex.: &Integral; 8x<sup>7</sup> + 3x<sup>2</sup> + 1 dx = x<sup>8</sup> + x<sup>3</sup> + x + c</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para os textos subscritos a sua utilização mais notória é para descrever fórmulas químicas, utilizando para isso a <strong>tag semântica &lt;sub&gt;</strong>.</p>
+    <p>Ex.: CH<sub>4</sub> + 2O<sub>2</sub> <img src="seta-delta.png" alt="seta com delta"> 2H<sub>2</sub>O + CO<sub>2</sub> (Combustão do Metano).</p>
+</body>
+</html>
