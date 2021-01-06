@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <hr>
+    <p>Tente aumentar e diminuir o tamanho da tela para ver a imagem mudar</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" sizes="imagem G">
+        <source media="(min-width: 750px)" srcset="imagens/foto-m.png" sizes="imagem M">
+        <img src="imagens/foto-p.png" alt="imagem P">
+    </picture>
+    <h1>Trabalhando com Sons</h1>
+    <hr>
+    <p>Reproduzindo áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+        <source src="happy-mistake.ogg" type="audio/ogg">
+        <source src="happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente seu computador não pode reproduzir áudio <a href="happy-mistake.mp3">Clique aqui</a> para baixar o áudio.</p>
+    </audio>
+    </body>
+    </html>
